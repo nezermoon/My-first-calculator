@@ -1,8 +1,5 @@
 function calc(mathAction, a, b) {
-    if(mathAction != '+' && mathAction != '-' && mathAction != '*' && mathAction != '/' && mathAction != '**' && mathAction != '%') {
-        return 'Unknown operation'
-    }
-    else if (mathAction == '+') {
+    if (mathAction == '+') {
         return (+a + +b) || 'Error';
     } else if (mathAction == '-') {
         return (a - b) || 'Error';
@@ -14,6 +11,8 @@ function calc(mathAction, a, b) {
         return (a ** b) || 'Error';
     } else if (mathAction == '%') {
         return (a % b) || 'Error';
+    } else {
+        return 'Unknown operation';
     }
 }
 
