@@ -18,6 +18,7 @@
 
 //console.log(calc('', ,));
 
+// version with using switch
 function calc(mathAction, a, b) {
   switch(mathAction) {
     case '+':
