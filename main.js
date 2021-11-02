@@ -1,23 +1,3 @@
-// function calc(mathAction, a, b) {
-//     if (mathAction == '+') {
-//         return (+a + +b === 0) ? 0 : +a + +b || 'Error';
-//     } else if (mathAction == '-') {
-//         return (a - b === 0) ? 0 : a - b || 'Error';
-//     } else if (mathAction == '*') {
-//         return (a * b === 0) ? 0 : a * b || 'Error'; 
-//     } else if (mathAction == '/') {
-//         return (a / b === 0) ? 0 : a / b || 'Error';
-//     } else if (mathAction == '**') {
-//         return (a ** b === 0) ? 0 : a ** b || 'Error';
-//     } else if (mathAction == '%') {
-//         return (a % b === 0) ? 0 : a % b || 'Error';
-//     } else {
-//         return 'Unknown operation';
-//     }
-// }
-
-//console.log(calc('', ,));
-
 // version with using switch
 function calc(mathAction, a, b) {
   switch(mathAction) {
@@ -44,4 +24,4 @@ function calc(mathAction, a, b) {
 	}
 }
 
-console.log(calc('%', 8, 3));
+// console.log(calc('', , ));
