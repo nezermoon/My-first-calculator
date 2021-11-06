@@ -11,7 +11,7 @@ let mathAction = {
 	rem: a % b,
 };
 
-if (typeof(a) !== 'number' || typeof(b) !== 'number') {
+if (+a !== a || +b !== b) {
 	return 'Error';
 } else if (mathAction[act] === undefined) {
 	return 'Unknown operation';
